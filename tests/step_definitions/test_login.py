@@ -1,6 +1,5 @@
 from pytest_bdd import scenario, given, when, then
 from playwright.sync_api import Page, expect
-import pytest
 
 
 from pages.seznam_navigation import SeznamNavigationMenu, EnterLoginDetails
